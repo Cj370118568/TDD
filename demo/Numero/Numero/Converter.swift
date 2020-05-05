@@ -27,7 +27,20 @@
 /// THE SOFTWARE.
 
 class Converter {
+    
     func convert(_ number: Int) -> String {
-      return ""
+        var result = ""
+        var localNumber = number
+        if localNumber >= 10 { // 1
+          result += "X" // 2
+          localNumber = localNumber - 10 // 3
+        }
+        if localNumber >= 5 {
+          result += "V"
+          localNumber = localNumber - 5 // 5
+        }
+        
+        result += String(repeating: "I", count: localNumber) 
+        return result
     }
 }
