@@ -120,7 +120,7 @@ XCTest是Xcode 5以后集成的测试框架（之前版本是SenTestingKit和OCU
 * UI tests
 
 	UI tests即UserInterface test，是苹果提供的对视图进行测试的框架。可以对页面显示的任何内容比如文本、图片、自定义视图等进行测试。
-		
+
 	新建项目时集成UI tests，如下图：
 
 	![UI-tests](./resources/newuitest.png)
@@ -188,7 +188,7 @@ XCTest是Xcode 5以后集成的测试框架（之前版本是SenTestingKit和OCU
 
 ## 总结
 
-测试可以提高软件系统的可靠性，TDD是测试中的一种比较主流的思想，合理运用TDD，可以让软件更健壮。
+测试可以提高软件系统的可靠性，TDD是测试中的一种比较主流的思想，合理运用TDD，可以让软件更健壮,更灵活。
 
 今天以iOS的角度展示了TDD，UI tests可以测试界面显示以及实际应用场景的流程，Unit tests是测试系统的基础，可靠的测试系统中必定会有大量单元测试，代码覆盖率可以帮助开发者完善测试系统。
 

@@ -30,7 +30,7 @@ import Foundation
 
 class Game {
   let maxAttemptsAllowed = 3
-  let maxNumberToGenerate = 10
+  let maxNumberToGenerate = 100
   
   var score: Int
   var attempt: Int
@@ -100,13 +100,9 @@ private extension Game {
   }
   
   func generateAnswers(_ index: Int, number: Int) -> String {
-    // TODO: (Final project) Uncomment line below and comment out following line
-    // to use the converter
-    //    let correctAnswer = converter.convert(number)
-    // TODO: (Starter project) Uncomment line below and comment out the previous
-    // line
-//    let correctAnswer = "ABCD"
-    let correctAnswer = converter.convert(number)
+
+    let correctAnswer = "ABCD"
+//    let correctAnswer = converter.convert(number)
 
     if showWrongConversion() {
       isCorrectConversion.append(false)
