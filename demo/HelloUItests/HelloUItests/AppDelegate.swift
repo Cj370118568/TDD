@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  HelloUITest
+//  HelloUItests
 //
-//  Created by 陈健 on 2020/5/5.
+//  Created by 陈健 on 2020/5/6.
 //  Copyright © 2020 test.MOYI. All rights reserved.
 //
 

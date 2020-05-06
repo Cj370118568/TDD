@@ -119,7 +119,8 @@ XCTest是Xcode 5以后集成的测试框架（之前版本是SenTestingKit和OCU
 
 * UI tests
 
-	UI tests即UserInterface test，是苹果提供的对视图进行测试的框架。可以对页面显示的任何内容比如文本、图片、自定义视图等进行测试。	
+	UI tests即UserInterface test，是苹果提供的对视图进行测试的框架。可以对页面显示的任何内容比如文本、图片、自定义视图等进行测试。
+		
 	新建项目时集成UI tests，如下图：
 
 	![UI-tests](./resources/newuitest.png)

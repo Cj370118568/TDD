@@ -27,20 +27,39 @@
 /// THE SOFTWARE.
 
 class Converter {
-    
-    func convert(_ number: Int) -> String {
-        var result = ""
+    /// 阿拉伯数字转化成罗马数字
+       /// - Parameter number: 需要转化的数字，整型
+       /// - Returns: 罗马数字，字符串
+       func convert(_ number: Int) -> String {
         var localNumber = number
-        if localNumber >= 10 { // 1
-          result += "X" // 2
-          localNumber = localNumber - 10 // 3
-        }
-        if localNumber >= 5 {
-          result += "V"
-          localNumber = localNumber - 5 // 5
-        }
+         var result = ""
+
+         let numberSymbols: [(number: Int, symbol: String)] =
+         [(1000, "M"),
+          (900, "CM"),
+          (500, "D"),
+          (400, "CD"),
+          (100, "C"),
+          (90, "XC"),
+          (50, "L"),
+          (40, "XL"),
+          (10, "X"),
+          (9, "IX"),
+          (5, "V"),
+          (4, "IV"),
+          (1, "I")]
+           
+         for item in numberSymbols {
+           while localNumber >= item.number {
+             result += item.symbol
+             localNumber = localNumber - item.number
+           }
+         }
+
+         return result
+    }
+    
+    func hello() {
         
-        result += String(repeating: "I", count: localNumber) 
-        return result
     }
 }

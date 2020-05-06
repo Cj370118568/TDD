@@ -16,7 +16,7 @@
 		3052E8862010600D00F6F30B /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8852010600D00F6F30B /* Converter.swift */; };
 		3052E8882010950800F6F30B /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneViewController.swift */; };
 		30833EE42014681A000488C0 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833EE32014681A000488C0 /* Shuffle.swift */; };
-		9C4477AD24616A85006EDF6F /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4477AC24616A85006EDF6F /* ConverterTests.swift */; };
+		9C3F286B24629FDF004A622E /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3F286A24629FDF004A622E /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		30833EE32014681A000488C0 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
 		9C0CBC3324547A9800268B6F /* NumeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0CBC3724547A9800268B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C4477AC24616A85006EDF6F /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
+		9C3F286A24629FDF004A622E /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				9C0CBC3724547A9800268B6F /* Info.plist */,
-				9C4477AC24616A85006EDF6F /* ConverterTests.swift */,
+				9C3F286A24629FDF004A622E /* ConverterTests.swift */,
 			);
 			path = NumeroTests;
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C4477AD24616A85006EDF6F /* ConverterTests.swift in Sources */,
+				9C3F286B24629FDF004A622E /* ConverterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
